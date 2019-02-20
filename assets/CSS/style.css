@@ -19,7 +19,6 @@ h1 {
     padding: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    height: inherit;
 }
 
 h2 {
@@ -38,6 +37,10 @@ h2 {
     min-width: 200px;
 }
 
+button {
+    color: #4aaaa5;
+}
+
 @media screen and (max-width: 443px) {
     .container {
       min-width: 100%
@@ -46,14 +49,35 @@ h2 {
       min-width: 100%;
       text-align: center;
     }
-    #headshot {
-
+    footer {
+        background-color: #666666;
+        color: #e7e7e7;
+        border-top: 5px solid #4aaaa5;
+        text-align: center;
+        position:fixed;
+        bottom: 0px;
     }
-  }
+    }
+
+@media screen and (min-width: 577px) {
+    .card {
+        margin: 20px;
+    }
+    footer {
+        background-color: #666666;
+        color: #e7e7e7;
+        border-top: 5px solid #4aaaa5;
+        text-align: center;
+        position:fixed;
+        bottom: 0px;
+        }
+    }
 
 footer {
     background-color: #666666;
     color: #e7e7e7;
     border-top: 5px solid #4aaaa5;
-
+    text-align: center;
+    position:fixed;
+    bottom: 0px;
 }
