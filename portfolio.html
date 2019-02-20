@@ -7,66 +7,131 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
 
     <title>Liam Condon</title>
   </head>
   <body>
 
-    <!-- <div class= "container">
-        <h1>Liam Condon</h1> -->
+   
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class= "container">
+                    <h1>Liam Condon</h1>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        
+            <section class= "container main-section bg-light mt-5">
+                <h2>My Portfolio</h2>
+                <hr>
 
-    <nav class="navbar navbar-light bg-light justify-content-between sticky-top">
-        <div class= "row">
-            <div class="col-2">
-
-            </div>
-            <div class="col-8">
-                <a class="navbar-brand">Liam Condon</a>
-                <ul class="navbar-nav">
-                    <div class= "row">
-                        <div class= "col">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                         </div>
-                        <div class= "col">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-                            </li>
-                        </div>
-                        <div class= "col">
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
-                </ul>
-            </div>
-            <div class="col-2">
-            
-            </div>
-    </nav>
-<!-- 
-    <section class= "container" id= "aboutme">
-        <h2>About Me</h2>
-        <hr>
-        <div class= "row">
-            <div class= "col-lg-3 col-md-5 col-sm-12">
-                <img class="img-fluid" id="headshot" src="https://ltcondon.github.io/Basic-Portfolio/assets/images/headshot.jpeg">
-            </div>
-            <div class= "col-lg-9 col-md-7 col-sm-12">
-                <p>Hello there! My name is Liam Condon, a current student of UC Berkeley Bootcamp's Full-Stack Flex program, and aspiring software engineer. After graduating the University of Vermont in 2016 with a B.A. in both Economics and Environmental Studies, I spent a few years working as a development analyst for a solar energy company in New York City. I very much enjoy working in the Renewable Energy space, and after being briefly exposed to the joys and possibilities of software development, I decided to further my skills in these areas.</p>
-                <p>Upon completion of this program, I will be well-versed in both front and back-end technologies including Javascript, Python, Node.js, MySQL, MongoDB, React, HTML, CSS and several others.</p>
-                <p>In the summer of 2018, I quit my job and rode my bicycle solo from Washington D.C. to Seattle, WA. It was an incredible experience that I'm so grateful I was able to have! Please contact me if you'd like to chat about my experience and/or my skills and capabilities as a developer. I look forward to hearing from you!</p>
-            </div>
-        </div>
-    </div> -->
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio2.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
 
-    <footer>
-        Copyright 2019 @ Liam Condon
-    </footer>
-
+                <div class="card-deck">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/portfolio6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">Project 1</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class= "row mx-auto" style= "max-width: 75%">
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio1" src="assets/images/portfolio1.jpeg">
+                    </figure>
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio2" src="assets/images/portfolio2.jpeg">
+                    </figure>
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio3" src="assets/images/portfolio3.jpg">
+                    </figure>
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio4" src="assets/images/portfolio4.jpg">
+                    </figure>
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio5" src="assets/images/portfolio5.jpg">
+                    </figure>
+                    
+                    <figure class= "col-lg-4 col-md-6 col-sm-12">
+                        <img class="img-fluid rounded mx-auto d-block" id="portfolio6" src="assets/images/portfolio6.jpg">
+                    </figure>
+                </div> -->
+            </section>
+<!--         
+            <footer>
+                Copyright 2019 @ Liam Condon
+            </footer>
+ -->
 
 
 
